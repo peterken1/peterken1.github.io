@@ -64,7 +64,7 @@ body {
   p {
   font-size : 1.1rem;
   padding-bottom : 0.5rem;
-  width : 100%;
+  width : auto;
   }
   h3 {
   font-size : 1.75rem;
