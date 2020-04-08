@@ -17,34 +17,6 @@ body {
     justify-content : center;
     border-radius : 1rem;
     }
-    .menu{
-        padding:10px 0;
-        transition:border .2s linear;
-    }
-    .menu >div{
-        width:25px;
-        height:2.5px;
-        background-color: #333;
-        margin:5px 0px;
-        box-shadow:1px 1px 1px grey;
-        border-radius: 4px 0px 4px 0px;
-        transition:.5s;
-    }
-    .change .bar1 {
-        -webkit-transform: rotate(-45deg)
-    translate(-6px,8px);
-        transform: rotate(-45deg) translate(-6px,8px);
-    }
-    .change .bar2 {
-        opacity: 0;
-
-    }
-    .change .bar3 {
-        -webkit-transform: rotate(45deg)
-    translate(-3px,-8px);
-         transform: rotate(45deg)
-    translate(-3px,-8px);
-    }
     a:hover {
     color : lime;
     }
