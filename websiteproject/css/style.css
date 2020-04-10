@@ -11,9 +11,9 @@ body {
     html,body{
         scroll-behavior : smooth;
     } 
-    header,footer {
-    background-color: #0f255c;
-    color : brown;
+    header {
+    background-color: #05303f;
+    color : whitesmoke;
     padding : 1px;
     display : flex;
     align-items : center;
@@ -21,7 +21,10 @@ body {
     border-radius : 1rem;
     }
     a:hover {
-    color : lime;
+    color : #B3001B;
+    }
+    a:hover, a:active{
+    color :  #B3001B;
     }
     header img {
     width : 100%;
@@ -152,8 +155,17 @@ body {
     font-family : Verdana, Geneva, Tahoma, sans-serif;
     border-radius : 2rem;
     }
+    footer{
+        background-color: #895f8f;
+        color : brown;
+        padding : 1px;
+        display : flex;
+        align-items : center;
+        justify-content : center;
+        border-radius : 1rem;
+    }
     @media screen and (max-width: 550px) {
     .home-grid {
     display : block;
     }
-    } 
+    }
